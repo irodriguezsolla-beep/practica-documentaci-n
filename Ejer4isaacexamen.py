@@ -16,7 +16,6 @@ def superior(superior,medias,dia):
             if t > medias:
                 super.append(t)
 
-        for l
 
     print(dia[l],super[])
 
