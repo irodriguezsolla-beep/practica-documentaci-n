@@ -10,7 +10,7 @@ for i in dias_semana:
 media_temperaturas = suma /7
 print("La temperatura media es: " ,str(media_temperaturas))
 
-def superior(superior,medias,dia):
+def Superior(superior,medias,dia):
         super = []
         for t in superior:
             if t > medias:
