@@ -11,10 +11,10 @@ media_temperaturas = suma /7
 print("La temperatura media es: " ,str(media_temperaturas))
 
 def Superior(superior,medias,dia):
-        super = []
+        Super = []
         for t in superior:
             if t > medias:
-                super.append(t)
+                Super.append(t)
 
 
     print(dia[l],super[])
