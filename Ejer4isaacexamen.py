@@ -1,4 +1,4 @@
-temperaturas = []
+List_Temperaturas = []
 dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"]
 suma = 0
 for i in dias:
@@ -19,4 +19,3 @@ def superior(superior,medias,dia):
 
     print(dia[l],super[])
 
-print("La temperatura que se pasa de la media es: ", superior(temperaturas,media,dias))
