@@ -11,11 +11,11 @@ media_temperaturas = suma /7
 print("La temperatura media es: " ,str(media_temperaturas))
 
 '''La siguiente función lo que hace es calcular cual es la temperatura que supera la media en la lista de temperaturas'''
-def Superior(superior, medias):
+def calcularSuperior(superior, medias):
         Super = []
         for t in superior:
             if t > medias:
                 Super.append(t)
         return Super
 
-print("La temperatura que se pasa de la media es: ", Superior(list_temperaturas, media_temperaturas))
+print("La temperatura que se pasa de la media es: ", calcularSuperior(list_temperaturas, media_temperaturas))
