@@ -4,18 +4,17 @@ suma = 0
 # Primero creamos una lista vacia y ota con los dias de la semana.
 for i in dias_semana:
     temp = int(input("Dime la temperatura de: "))
-    temperaturas.append(temp)
+    list_temperaturas.append(temp)
     suma = temp + suma
 
 media_temperaturas = suma /7
 print("La temperatura media es: " ,str(media_temperaturas))
-
+'''La siguiente función lo que hace es calcular cual es la temperatura que supera la media en la lista de temperaturas'''
 def Superior(superior, medias):
         Super = []
         for t in superior:
             if t > medias:
                 Super.append(t)
+        return Super
 
-
-    print(dia[l],super[])
-
+print("La temperatura que se pasa de la media es: ", Superior(list_temperaturas, media_temperaturas))
