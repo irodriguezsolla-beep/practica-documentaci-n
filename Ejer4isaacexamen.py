@@ -7,8 +7,8 @@ for i in dias_semana:
     temperaturas.append(temp)
     suma = temp + suma
 
-media = suma /7
-print("La temperatura media es: " ,str(media))
+media_temperaturas = suma /7
+print("La temperatura media es: " ,str(media_temperaturas))
 
 def superior(superior,medias,dia):
         super = []
