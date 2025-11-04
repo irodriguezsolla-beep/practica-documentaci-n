@@ -7,6 +7,15 @@ for i in list_dias:
     list_temperaturas.append(temp)
     suma = temp + suma
 
+respuesta = float(input("dime el color que quieres: "))
+if respuesta == 1;
+    print("Rojo")
+elif respuesta == 2;
+    print("verde")
+elif respuesta == 3;
+    print("amarillo")
+elif respuesta == 4;
+    print("azul")
 media_temperaturas = suma /7
 print("La temperatura media es: " ,str(media_temperaturas))
 
