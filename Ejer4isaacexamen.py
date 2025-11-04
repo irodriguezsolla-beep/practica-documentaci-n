@@ -1,5 +1,5 @@
-List_Temperaturas = []
-dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"]
+list_temperaturas = []
+dias_semana = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"]
 suma = 0
 for i in dias:
     temp = int(input("Dime la temperatura de: "))
