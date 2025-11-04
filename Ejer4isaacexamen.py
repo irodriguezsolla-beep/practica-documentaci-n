@@ -1,7 +1,7 @@
 list_temperaturas = []
 dias_semana = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"]
 suma = 0
-for i in dias:
+for i in dias_semana:
     temp = int(input("Dime la temperatura de: "))
     temperaturas.append(temp)
     suma = temp + suma
